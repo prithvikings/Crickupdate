@@ -1,0 +1,17 @@
+{
+    "name": "My Awesome App",
+    "version": "1.0.0",
+    "short_name": "AwesomeApp",
+    "manifest_version": 3,
+    "description": "This is an awesome app that does amazing things!",
+    "author": "Prithvi Raj",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "My Awesome App"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}

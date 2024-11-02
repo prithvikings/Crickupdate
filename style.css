@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+/* Container to center content and control width */
+.container {
+    width: 90%;
+    min-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    color: #ffeb3b;
+    margin-bottom: 20px;
+}
+
+/* Loading text */
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+/* Matches list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #444;
+    color: #ffeb3b;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background-color: #666;
+}
